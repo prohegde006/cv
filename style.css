@@ -1,0 +1,212 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+/************** Navbar styles *************/
+
+/***************Title section***************/
+#title {
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  padding: 6rem;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  color: black;
+  padding: 1rem;
+}
+
+.title-sub-heading {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.title-heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: #766dff;
+}
+
+.title-section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 3rem;
+}
+
+.title {
+  padding-top: 3%;
+}
+
+.title-contents {
+  color: rgb(187, 187, 187);
+}
+
+.profile-img {
+  width: 70%;
+  border-radius: 100%;
+  /* border-style: solid;
+  border-width: 8px; */
+}
+
+.profile-img-div {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+#title .social-links {
+  color: rgb(187, 187, 187);
+  font-size: 1.5rem;
+  margin: 0.5%;
+}
+
+#title .social-links:hover {
+  color: #b592e8;
+}
+
+/************************ My Things ****************************/
+
+#my-things {
+  padding: 10% 5%;
+  line-height: 2;
+  background-color: rgb(241, 241, 241);
+}
+
+.coding-img {
+  width: 30%;
+  margin-right: 10%;
+}
+
+.cards {
+  width: 18rem;
+  border: solid;
+  background-color: #fff;
+  border-color: #88f3ff;
+  border-width: 3px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  border-radius: 7px;
+  padding: 0.3rem;
+}
+
+.col-lg-4 {
+  padding: 10px;
+}
+
+/********************* Projects **************************/
+
+#projects {
+  padding: 10% 5%;
+  background-color: #d0f9fe;
+}
+
+.project-heading {
+  font-family: 'Raleway', sans-serif;
+  padding: 0.5rem;
+}
+
+.project-img-div {
+  padding: 1.5rem;
+}
+
+.crop-art-img {
+  width: 90%;
+  border-radius: 7px;
+}
+
+.tindog-img {
+  width: 87%;
+  border-radius: 7px;
+}
+
+.crop-art-div,
+.tindog-div {
+  padding-top: 2rem;
+}
+
+.project-links {
+  color: #000000;
+}
+
+.project-links:hover {
+  color: grey;
+}
+
+/******************************** About ***********************************/
+#about {
+  background-color: black;
+  color: #fff;
+  padding: 3rem;
+  text-align: left;
+}
+
+.about-me {
+  padding-right: 15%;
+  padding-bottom: 7%;
+}
+
+.social-icons {
+  margin: 2%;
+}
+
+.social-links {
+  color: #fff;
+  margin: 2%;
+}
+
+.social-links:hover {
+  color: #b592e8;
+}
+
+/**********************Media Queries***********************/
+@media (max-width:750px) {
+  #title {
+    padding: 2rem;
+  }
+}
+
+@media (max-width:460px) {
+  #title {
+    padding: 0rem;
+    padding-top: 2rem;
+  }
+
+  .title-section {
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  }
+
+  .title-contents {
+    color: white;
+  }
+
+  #title .social-icons{
+    color: white;
+  }
+
+  #title .social-icons:hover{
+    color: #b592e8;
+  }
+
+  .title-heading {
+    font-size: 3rem;
+  }
+
+  .crop-art-img {
+    width: 100%;
+  }
+
+  .tindog-img {
+    width: 100%;
+  }
+
+  .profile-img{
+    width: 100%;
+  }
+}
